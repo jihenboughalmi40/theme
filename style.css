@@ -1,0 +1,94 @@
+/*
+Theme name: my-project
+Theme URI:http://localhost:81/my-project/wordpress/
+Author:Jihen boughalmi
+Author URI: wordpress.org
+Description:Le reve de hollowyd
+Version: 0.1
+*/
+
+
+body{
+    background-color:#fff;
+font-family: 'arial', sans-serif;
+color: #333;
+margin: 0;
+ }
+
+ main {
+     width: 1000px;
+margin-left: auto;
+margin-right: auto;
+
+    
+
+    }
+    main#acceuil{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    } 
+
+    footer{
+        margin-top :20px ;
+        background-color:black;
+        padding: 20px;
+        color: salmon;
+    }
+    .logo{
+        padding-top: 20px;
+    padding-bottom: 10px;
+    margin: auto;
+    }
+
+
+    div[class^="menu-"] {
+    
+        background-color:black;
+        padding: 20px;
+    }
+.menu , footer p,body > h1{
+    padding: 0;
+    width: 400px;
+margin-right:auto ;
+margin-left: auto;
+}
+
+.menu .menu-item{
+    list-style-type: none;
+display: inline-block;
+margin-right: 50px;
+justify-content: flex-end;
+
+}
+
+.menu .menu-item a, main article a{
+    margin-right: 20px;
+    justify-content: center;
+color:salmon;
+text-decoration: none;
+}
+
+.menu .menu-item a:hover, main article a:hover{
+    
+text-decoration: underline;
+}
+
+article{
+    width: 300px;
+    margin: bottom 20px;
+}
+    h1,h2 {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+
+  .input .form{
+      text-align: end;
+  }
+
+   button{
+      margin-right: 50px;
+  }
+
